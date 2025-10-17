@@ -1,5 +1,5 @@
 import streamlit as st
-from model import stw_tfidf_a_file, stwfsa_a_file, mllm_a_file
+from model import annotation_method
 from utils import clean_annif_output_with_labels
 
 st.set_page_config(page_title="Subject Annotator")
@@ -13,13 +13,13 @@ def process_selection(choice):
     results = {}
     if uploaded_file is not None:
         if choice == "TF-IDF":
-            results = clean_annif_output_with_labels(stw_tfidf_a_file(uploaded_file))
+            results = clean_annif_output_with_labels(annotation_method(uploaded_file, "stw-tfidf-en"))
 
         elif choice == "STWFSA":
-            results = clean_annif_output_with_labels(stwfsa_a_file(uploaded_file))
+            results = clean_annif_output_with_labels(annotation_method(uploaded_file,"stw-stwfsa-en"))
 
         elif choice == "MLLM":
-            results = clean_annif_output_with_labels(mllm_a_file(uploaded_file))
+            results = clean_annif_output_with_labels(annotation_method(uploaded_file, "stw-mllm-en"))
 
     if results:
         values_list = next(iter(results.values()))
@@ -31,7 +31,7 @@ def process_selection(choice):
             st.write(value)
 
 selected = st.selectbox(
-    "Pick a ML method to generate recommendations:",
+    "Pick a machine learning method to generate subject recommendations:",
     ["TF-IDF", "STWFSA", "MLLM"]
 )
 results = process_selection(selected)
