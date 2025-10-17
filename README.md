@@ -1,6 +1,6 @@
 # InvenioRDM-subject-annotater
 
-A web client wrapped around (annif)[https://github.com/NatLibFi/Annif] for automatic subject indexing for instances that are using invenioRDM.
+A web client wrapped around [annif](https://github.com/NatLibFi/Annif) for automatic subject indexing for instances that are using invenioRDM.
 
 ## Install locally
 
@@ -25,9 +25,13 @@ pip install annif[stwfsa]
 annif train stw-stwfsa-en data-sets/stw-zbw/stw-econbiz.tsv.gz
 ```
 
-To make the tfidf works:
+To make the term frequency inverse document frequency (tfidf) method work:
 
 `annif train stw-tfidf-en data-sets/stw-zbw/stw-econbiz.tsv.gz`
+
+To make the Maui-like Lexical Matching (mllm) method work:
+
+`annif train stw-mllm-en data-sets/stw-zbw/stw-econbiz.tsv.gz`
 
 ### To run the app using:
 
