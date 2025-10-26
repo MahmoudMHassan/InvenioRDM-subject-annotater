@@ -1,6 +1,6 @@
 # InvenioRDM-subject-annotater
 
-A web client wrapped around [annif](https://github.com/NatLibFi/Annif) for automatic subject indexing for instances that are using invenioRDM.
+A web client wrapped around [annif](https://github.com/NatLibFi/Annif) for automatic subject indexing for instances that are using invenioRDM. A demo could be accessed via https://inveniordm-subject-annotater.streamlit.app/ 
 
 ## Install locally
 
