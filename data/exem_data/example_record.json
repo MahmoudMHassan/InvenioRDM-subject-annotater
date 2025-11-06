@@ -1,0 +1,357 @@
+{
+    "id": "0hx2x-6ca02",
+    "created": "2024-02-27T23:43:23.372465+00:00",
+    "updated": "2025-07-31T12:09:28.141837+00:00",
+    "links": {
+      "self": "https://berd-platform.de/api/records/0hx2x-6ca02",
+      "self_html": "https://berd-platform.de/records/0hx2x-6ca02",
+      "self_doi": "https://berd-platform.de/doi/10.82939/0hx2x-6ca02",
+      "doi": "https://handle.stage.datacite.org/10.82939/0hx2x-6ca02",
+      "parent": "https://berd-platform.de/api/records/xbnj9-dr791",
+      "parent_html": "https://berd-platform.de/records/xbnj9-dr791",
+      "parent_doi": "https://berd-platform.de/doi/10.82939/xbnj9-dr791",
+      "self_iiif_manifest": "https://berd-platform.de/api/iiif/record:0hx2x-6ca02/manifest",
+      "self_iiif_sequence": "https://berd-platform.de/api/iiif/record:0hx2x-6ca02/sequence/default",
+      "files": "https://berd-platform.de/api/records/0hx2x-6ca02/files",
+      "media_files": "https://berd-platform.de/api/records/0hx2x-6ca02/media-files",
+      "archive": "https://berd-platform.de/api/records/0hx2x-6ca02/files-archive",
+      "archive_media": "https://berd-platform.de/api/records/0hx2x-6ca02/media-files-archive",
+      "latest": "https://berd-platform.de/api/records/0hx2x-6ca02/versions/latest",
+      "latest_html": "https://berd-platform.de/records/0hx2x-6ca02/latest",
+      "draft": "https://berd-platform.de/api/records/0hx2x-6ca02/draft",
+      "versions": "https://berd-platform.de/api/records/0hx2x-6ca02/versions",
+      "access_links": "https://berd-platform.de/api/records/0hx2x-6ca02/access/links",
+      "access_grants": "https://berd-platform.de/api/records/0hx2x-6ca02/access/grants",
+      "access_users": "https://berd-platform.de/api/records/0hx2x-6ca02/access/users",
+      "access_groups": "https://berd-platform.de/api/records/0hx2x-6ca02/access/groups",
+      "access_request": "https://berd-platform.de/api/records/0hx2x-6ca02/access/request",
+      "access": "https://berd-platform.de/api/records/0hx2x-6ca02/access",
+      "reserve_doi": "https://berd-platform.de/api/records/0hx2x-6ca02/draft/pids/doi",
+      "communities": "https://berd-platform.de/api/records/0hx2x-6ca02/communities",
+      "communities-suggestions": "https://berd-platform.de/api/records/0hx2x-6ca02/communities-suggestions",
+      "requests": "https://berd-platform.de/api/records/0hx2x-6ca02/requests"
+    },
+    "revision_id": 8,
+    "parent": {
+      "id": "xbnj9-dr791",
+      "access": {
+        "owned_by": {
+          "user": "1"
+        },
+        "settings": {
+          "allow_user_requests": false,
+          "allow_guest_requests": false,
+          "accept_conditions_text": null,
+          "secret_link_expiration": 0
+        }
+      },
+      "communities": {
+        "ids": [
+          "1b064b46-8376-4ca3-96b5-02f841660370"
+        ],
+        "default": "1b064b46-8376-4ca3-96b5-02f841660370",
+        "entries": [
+          {
+            "id": "1b064b46-8376-4ca3-96b5-02f841660370",
+            "created": "2023-06-19T08:18:07.376072+00:00",
+            "updated": "2024-02-23T08:46:02.105088+00:00",
+            "links": {},
+            "revision_id": 3,
+            "slug": "opendata",
+            "metadata": {
+              "title": "Open datasets",
+              "type": {
+                "id": "organization",
+                "title": {
+                  "de": "Organisation",
+                  "en": "Organization"
+                }
+              },
+              "organizations": [
+                {
+                  "name": "BERD@NFDI"
+                }
+              ]
+            },
+            "access": {
+              "visibility": "public",
+              "members_visibility": "public",
+              "member_policy": "open",
+              "record_policy": "open",
+              "review_policy": "closed"
+            },
+            "deletion_status": {
+              "is_deleted": false,
+              "status": "P"
+            },
+            "children": {
+              "allow": false
+            }
+          }
+        ]
+      },
+      "pids": {
+        "doi": {
+          "identifier": "10.82939/xbnj9-dr791",
+          "provider": "datacite",
+          "client": "datacite"
+        }
+      }
+    },
+    "versions": {
+      "is_latest": true,
+      "index": 2
+    },
+    "is_published": true,
+    "is_draft": false,
+    "pids": {
+      "doi": {
+        "identifier": "10.82939/0hx2x-6ca02",
+        "provider": "datacite",
+        "client": "datacite"
+      },
+      "oai": {
+        "identifier": "oai:berd-platform.de:0hx2x-6ca02",
+        "provider": "oai"
+      }
+    },
+    "metadata": {
+      "resource_type": {
+        "id": "dataset-open",
+        "title": {
+          "en": "Open dataset"
+        }
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Zaj\u0105c, Zygmunt",
+            "given_name": "Zygmunt",
+            "family_name": "Zaj\u0105c"
+          }
+        }
+      ],
+      "title": "Goodreads-books",
+      "publisher": "Kaggle",
+      "publication_date": "2019",
+      "subjects": [
+        {
+          "subject": "business"
+        },
+        {
+          "subject": "internet"
+        },
+        {
+          "subject": "literature"
+        },
+        {
+          "subject": "linguistics"
+        },
+        {
+          "subject": "demographics"
+        }
+      ],
+      "languages": [
+        {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        }
+      ],
+      "sizes": [
+        "1.56 MB"
+      ],
+      "formats": [
+        "text/csv"
+      ],
+      "rights": [
+        {
+          "id": "cc0-1.0",
+          "title": {
+            "en": "Creative Commons Zero v1.0 Universal"
+          },
+          "description": {
+            "en": "CC0 waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach."
+          },
+          "icon": "cc-cc0-icon",
+          "props": {
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "scheme": "spdx"
+          }
+        }
+      ],
+      "description": "<p>The primary reason for creating this dataset is the requirement of a good clean dataset of books. It contains book names, authors, ratings and review counts. The data set is 1.56 MB large and was scraped via the <a href=\"https://goodreads.com/api\">Goodreads API</a></p><p>&nbsp;</p>"
+    },
+    "custom_fields": {
+      "research_fields": [
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/business-administration",
+          "title": {
+            "en": "Business Administration"
+          }
+        },
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/economics",
+          "title": {
+            "en": "Economics"
+          }
+        },
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/psychology",
+          "title": {
+            "en": "Psychology"
+          }
+        },
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/sociology",
+          "title": {
+            "en": "Sociology"
+          }
+        },
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/political-science",
+          "title": {
+            "en": "Political Science"
+          }
+        },
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/economic-social-history",
+          "title": {
+            "en": "Economic & Social History"
+          }
+        },
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/communication-sciences",
+          "title": {
+            "en": "Communication Sciences"
+          }
+        },
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/educational-research",
+          "title": {
+            "en": "Educational Research"
+          }
+        },
+        {
+          "id": "http://www.berd-nfdi.de/vocabularies/researchfields/other",
+          "title": {
+            "en": "Other"
+          }
+        }
+      ],
+      "external_resource_url": "https://www.kaggle.com/jealousleopard/goodreadsbooks",
+      "variables": [
+        {
+          "name": "bookID",
+          "description": "A unique Identification number for each book."
+        },
+        {
+          "name": "title",
+          "description": "The name under which the book was published"
+        },
+        {
+          "name": "authors",
+          "description": "Names of the authors of the book. Multiple authors are delimited with -."
+        },
+        {
+          "name": "average_rating",
+          "description": "The average rating of the book received in total."
+        },
+        {
+          "name": "isbn",
+          "description": "Another unique number to identify the book, the International Standard Book Number."
+        },
+        {
+          "name": "isbn13",
+          "description": "A 13-digit ISBN to identify the book, instead of the standard 11-digit ISBN."
+        },
+        {
+          "name": "language_code",
+          "description": "Helps understand what is the primary language of the book. For instance, eng is standard for English."
+        },
+        {
+          "name": "num_pages",
+          "description": "Number of pages the book contains."
+        },
+        {
+          "name": "ratings_count",
+          "description": "Total number of ratings the book received."
+        },
+        {
+          "name": "text_reviews_count",
+          "description": "Total number of written text reviews the book received."
+        },
+        {
+          "name": "publication_date",
+          "description": "Date when the book was first published."
+        },
+        {
+          "name": "publisher",
+          "description": "The name of the publisher."
+        }
+      ],
+      "contact_person": {
+        "name": "Zygmunt Zaj\u0105c",
+        "email": "nomailprovided@example.com"
+      }
+    },
+    "access": {
+      "record": "public",
+      "files": "public",
+      "embargo": {
+        "active": false,
+        "reason": null
+      },
+      "status": "open"
+    },
+    "files": {
+      "enabled": true,
+      "order": [],
+      "count": 1,
+      "total_bytes": 14408,
+      "entries": {
+        "books.csv__100lines.csv": {
+          "id": "27289e61-15f1-4351-aca4-a8ea56a252ab",
+          "checksum": "md5:2376fa62ea5c328bc5ca563b166c8fb1",
+          "ext": "csv",
+          "size": 14408,
+          "mimetype": "text/csv",
+          "key": "books.csv__100lines.csv",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        }
+      }
+    },
+    "media_files": {
+      "enabled": false,
+      "order": [],
+      "count": 0,
+      "total_bytes": 0,
+      "entries": {}
+    },
+    "status": "published",
+    "deletion_status": {
+      "is_deleted": false,
+      "status": "P"
+    },
+    "stats": {
+      "this_version": {
+        "views": 26,
+        "unique_views": 22,
+        "downloads": 15,
+        "unique_downloads": 10,
+        "data_volume": 216120.0
+      },
+      "all_versions": {
+        "views": 30,
+        "unique_views": 25,
+        "downloads": 19,
+        "unique_downloads": 12,
+        "data_volume": 273752.0
+      }
+    }
+  }
