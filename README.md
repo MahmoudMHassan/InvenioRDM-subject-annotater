@@ -4,7 +4,9 @@ A web client wrapped around [annif](https://github.com/NatLibFi/Annif) for autom
 
 ## Demo video
 
-link
+
+https://github.com/user-attachments/assets/045f1844-eec0-48ed-afb6-0ff672b3fee6
+
 
 ## Install locally
 
