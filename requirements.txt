@@ -1,2 +1,4 @@
 annif
+annif[stwfsa]
 streamlit
+voikko
